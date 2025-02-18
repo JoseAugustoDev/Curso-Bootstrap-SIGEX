@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <style>
+      .h400 {
+        height: 400px;
+      }
+      .h100 {
+        height: 100px;
+      }
+    </style>
+    <title>Aula 6 - Layout Grid</title>
+  </head>
+  <body>
+    <div class="container bg-secondary my-2">
+      <div class="row">
+        <div class="col bg-dark bg-opacity-50 h400 text-light text-center d-flex align-items-center justify-content-center fs-1 fw-bolder">1</div>
+        <div class="col-9 bg-dark bg-opacity-75 h400 text-light text-center d-flex align-items-center justify-content-center fs-1 fw-bolder">2</div>
+        <div class="col bg-dark bg-opacity-50 h400 text-light text-center d-flex align-items-center justify-content-center fs-1 fw-bolder">3</div>
+      </div>
+    </div>
+    <div class="container bg-primary my-2">
+      <div class="row">
+        <div class="col-12 bg-dark bg-opacity-50 h100 text-light text-center d-flex align-items-center justify-content-center fs-1 fw-bolder">1</div>
+        <div class="col-12 col-md-3 bg-dark bg-opacity-25 h400 text-light text-center d-flex align-items-center justify-content-center fs-1 fw-bolder">2</div>
+        <div class="col-12 col-md-9 bg-dark bg-opacity-75 h400 text-light text-center d-flex align-items-center justify-content-center fs-1 fw-bolder">3</div>
+        <div class="col-12 bg-dark bg-opacity-50 h100 text-light text-center d-flex align-items-center justify-content-center fs-1 fw-bolder">4</div>
+      </div>
+    </div>
+    <button class="btn btn-secondary w-100 rounded-0">
+      <a href="/index.html" class="text-dark fw-bolder text-decoration-none"
+        >Voltar ao início</a
+      >
+    </button>
+  </body>
+</html>
